@@ -32,7 +32,7 @@ public class Emojifier {
         Log.e(TAG, "detectFaces: number of faces = "+faces.size() );
 
         if(faces.size() == 0){
-            Toast.makeText(context,"no faces", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, R.string.no_face, Toast.LENGTH_SHORT).show();
         }
 
         //release the detector
