@@ -147,7 +147,7 @@ class BitmapUtils {
         String imageFileName = "JPEG_" + timeStamp + ".jpg";
         File storageDir = new File(
                 Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
-                        + "/Emojify");
+                        + "/Emojifier");
         boolean success = true;
         if (!storageDir.exists()) {
             success = storageDir.mkdirs();
